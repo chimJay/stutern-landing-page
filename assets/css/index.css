@@ -591,14 +591,22 @@ client section
   }
 }
 @media only screen and (max-width: 425px) {
-  .hero-content h4 {
-    font-size: 4.5em;
+  .hero {
+    padding-left: 1.5em;
   }
-  .hero-content {
-    padding: 2em 0;
+  .hero-content h4 {
+    font-size: 4em;
+  }
+  .employee-content {
+    padding: 0 2em;
   }
   .employee h4 {
-    font-size: 3.5em;
+    font-size: 3em;
+    width: 70vw;
+  }
+  .employee p {
+    width: 80vw;
+    font-size: 0.8em;
   }
   .team-heading-wrapper {
     flex-direction: column;
@@ -607,11 +615,11 @@ client section
     justify-content: center;
   }
   .team-heading h4 {
-    width: 40vw;
+    width: 80vw;
     font-size: 2em;
   }
   .team-heading p {
-    width: 40vw;
+    width: 80vw;
     font-size: 1em;
   }
   .team-wrapper-img {
@@ -634,7 +642,7 @@ client section
     width: 15vw;
   }
   .testimonial {
-    width: 90vw;
+    width: 70vw;
   }
   .company-heading h4 {
     font-size: 2em;
@@ -649,7 +657,7 @@ client section
     align-items: center;
   }
   .company-heading p {
-    width: 18em;
+    width: 90vw;
     font-size: 1em;
   }
   .contact h4 {
